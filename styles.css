@@ -1,0 +1,91 @@
+/* html {
+    color-scheme: dark light;
+} */
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: #adadad
+}
+body {
+    text-align: center;
+}
+header {
+    color: #ffffff;
+    background: url("images/gautier-salles-uffQnKuJ-hc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: -8px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}
+#title-visit {
+    text-shadow: 0 0 10px black;
+}
+#title-known-for {
+    text-shadow: 0 0 5px black;
+    padding-bottom: 100px;
+}
+.navbar {
+    margin-bottom: 100px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 5px black;
+    padding: 15px;
+    display: block;
+}
+.navbar li {
+    float: left;
+}
+main {
+    margin: 50px -8px -8px -8px;
+    color: #333;
+}
+.attractions {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.attractions-grand-canyon, .attractions-food, .attractions-devils-bridge {
+    margin: 0 75px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+.attractions-img {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.best-month {
+    background-color: #f7f7f7;
+    padding: 100px 50px;
+    display: flex;
+}
+.best-month-img {
+    width: 300px;
+}
+.best-month-txt {
+    padding: 10px 50px;
+}
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
